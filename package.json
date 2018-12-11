@@ -1,0 +1,26 @@
+{
+  "name": "steveburtenshaw.com",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel --no-cache src/index.html -d dist",
+    "build": "parcel build src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stphnnnn/steveburtenshaw.com.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stphnnnn/steveburtenshaw.com/issues"
+  },
+  "homepage": "https://github.com/stphnnnn/steveburtenshaw.com#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.10.3",
+    "sass": "^1.15.2"
+  }
+}
