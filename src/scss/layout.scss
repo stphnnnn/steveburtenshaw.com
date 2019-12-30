@@ -1,0 +1,22 @@
+.wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.grid {
+  display: flex;
+
+  &__col {
+    flex: 1;
+  }
+
+  @media (max-width: 600px) {
+    display: block;
+
+    &__col {
+      width: 100%;
+      margin: 0 0 10px 0;
+    }
+  }
+}

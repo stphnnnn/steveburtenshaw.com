@@ -6,7 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <meta name="robots" content="index, follow" />
 
-    <title>Steve Burtenshaw – UK-based web developer</title>
+    <title>Steve Burtenshaw | UK-based web developer</title>
+
     <meta name="description" content="UK-based web developer." />
     <meta
       property="og:title"
@@ -18,9 +19,10 @@
       content="UK-based web developer and designer."
     />
     <meta property="og:type" content="website" />
+
     <script>
       (function(i, s, o, g, r, a, m) {
-        i['GoogleAnalyticsObject'] = r;
+        i["GoogleAnalyticsObject"] = r;
         (i[r] =
           i[r] ||
           function() {
@@ -34,14 +36,15 @@
       })(
         window,
         document,
-        'script',
-        'https://www.google-analytics.com/analytics.js',
-        'ga'
+        "script",
+        "https://www.google-analytics.com/analytics.js",
+        "ga"
       );
 
-      ga('create', 'UA-29550165-5', 'auto');
-      ga('send', 'pageview');
+      ga("create", "UA-29550165-5", "auto");
+      ga("send", "pageview");
     </script>
+
     <link
       href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:300"
       rel="stylesheet"
@@ -49,21 +52,101 @@
   </head>
 
   <body>
-    <div id="text" class="wrapper">
-      <h1>
-        Hello. I'm Steve Burtenshaw, a UK-based web developer.
-      </h1>
-      <p>
-        I am currently at <a href="https://www.neontribe.co.uk/">NeonTribe</a>
-        building React applications. Available for freelance 👍.
-      </p>
-      <p>
-        Find me on <a href="http://github.com/stphnnnn">GitHub</a>,
-        <a href="https://twitter.com/stphnnnn">Twitter</a> and
-        <a href="https://www.twitch.tv/stphnnnnn">Twitch</a>. Or send me an
-        <a href="mailto:hello@steveburtenshaw.com">email</a>.
-      </p>
-    </div>
+    <header class="intro">
+      <div class="wrapper grid">
+        <div class="grid__col">
+          <div class="intro__name">
+            <h1>Steve Burtenshaw</h1>
+          </div>
+
+          <div class="intro__about">
+            <p>
+              Frontend web developer based in Norwich, UK. I work for (and with)
+              agencies, brands and startups.
+            </p>
+            <p>
+              👨‍💻 🌱 ❤️
+            </p>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="section works">
+        <div class="wrapper grid">
+          <div class="grid__col section__heading">Select works</div>
+
+          <div class="grid__col">
+            <ul class="works__list">
+              <li class="works__item">
+                <h3 class="works__item-title">
+                  <a href="https://designstudio.directory">
+                    Design Studio Directory
+                  </a>
+                </h3>
+                <p class="works__item-tech">React + Emotion</p>
+              </li>
+              <li class="works__item">
+                <h3 class="works__item-title">
+                  <a href="https://choose.love">
+                    Choose Love
+                  </a>
+                </h3>
+                <p class="works__item-tech">
+                  Shopify + Sass + Javascript
+                </p>
+              </li>
+              <li class="works__item">
+                <h3 class="works__item-title">
+                  <a href="https://someoneinlondon.com">
+                    SomeOne
+                  </a>
+                </h3>
+                <p class="works__item-tech">
+                  React + Sass + Headless Wordpress
+                </p>
+              </li>
+              <li class="works__item">
+                <h3 class="works__item-title">
+                  <a href="https://renderheads.com">
+                    Renderheads
+                  </a>
+                </h3>
+                <p class="works__item-tech">Wordpress + Sass + Javascript</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="section contact">
+        <div class="wrapper grid">
+          <div class="grid__col section__heading">Get in touch</div>
+
+          <div class="grid__col">
+            <div class="contact__link">
+              <a href="mailto:hello@steveburtenshaw.com">
+                Email
+              </a>
+            </div>
+            <div class="contact__link">
+              <a href="https://twitter.com/stphnnnn">
+                Twitter
+              </a>
+            </div>
+            <div class="contact__link">
+              <a href="http://github.com/stphnnnn">
+                GitHub
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
     <script src="./js/main.js"></script>
   </body>
 </html>
